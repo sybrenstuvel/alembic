@@ -74,12 +74,12 @@ namespace AbcU = ::Alembic::Util;
 using AbcA::index_t;
 
 #define RESETCOLOR "\033[0m"
-#define GRAYCOLOR "\033[1;30m"
-#define GREENCOLOR "\033[1;32m"
-#define BLUECOLOR "\033[1;34m"
-#define CYANCOLOR "\033[1;36m"
-#define REDCOLOR "\033[1;31m"
-#define BOLD "\033[1m"
+#define GRAYCOLOR "\033[0;30m"
+#define GREENCOLOR "\033[0;32m"
+#define BLUECOLOR "\033[0;34m"
+#define CYANCOLOR "\033[0;36m"
+#define REDCOLOR "\033[0;31m"
+#define BOLD "\033[0m"
 #define COL_1 20
 #define COL_2 15
 
